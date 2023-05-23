@@ -28,3 +28,12 @@ calculateButton.addEventListener("click", ()=>{
         statement.innerText = "Morbidly Obese";
     }
 });
+
+let erase = document.querySelector(".height")
+let erase2 = document.querySelector(".weight")
+let clearAll = () =>{
+    erase.value = '';
+    erase2.value = '';
+    result.innerText = '';
+    statement.innerText = '';
+}
