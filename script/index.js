@@ -9,7 +9,7 @@ calculateButton.addEventListener("click", ()=>{
     
     height = heightInput.value;
     weight = weightInput.value;
-    BMI = weight/(height**2); 
+    BMI = (weight/(height**2)).toFixed(2); 
     result.innerText = BMI;
 
     if(BMI < 16.0){
